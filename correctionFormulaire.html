@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>  
+
+    <h1>Réservation de chambre </h1>
+
+    <form methode="get">
+        <label for="nom">Nom : </label>
+        <label style="margin-left: 250px;" for="nbPersonne"> Nombre de personne : </label>
+        <br>
+        <input type="text" name="nom" placeholder="''Dupont''">
+        <input  style="margin-left:112px;" type="number" min="1" max="15" name="nbPersonne">
+        <br>
+        <label for="prenom" >Prenom : </label>
+        <label for="optionChambre" style="margin-left: 232px;" >Option de la chambre : </label>
+        <br>
+        <input type="text" name="prenom" placeholder="''TOTO''">
+        <select name="optionChambre" style="margin-left:112px;">
+            <option value="NetFlix">NetFlix</option>
+            <option value="spa">Spa</option>
+            <option value="frigo">Frigo</option>
+            <option value="cuisine">Cuisine</option>
+            <option value="miniBar">Mini Bar</option>
+        </select>
+        <br>
+        <label for="dateArrivee">Date d'arrivée</label>
+        <br>
+        <input type="date" name="dateArrivee">
+        <br>
+        <label for="dateDepart">Date de depart</label>
+        <br>
+        <input type="date" name="dateDepart" >
+        <br>
+        <input type="submit" value="Envoyer">
+    </form>
+
+</body>
+
+</html>
