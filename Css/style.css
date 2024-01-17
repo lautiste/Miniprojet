@@ -14,11 +14,19 @@
    margin-left: auto;
    margin-right: auto;
 }
-h2,h3{
+h1,h2,h3{
     text-align: center;
 }
 #bottom,#top{
     margin-left: auto;
     margin-right: auto;
 
+}
+#condition1,#condition2,#condition3,#condition4,#condition5{
+    padding: 1em;
+    border: solid black;
+}
+#rpage{
+    display: flex;
+    flex-direction: row;
 }
