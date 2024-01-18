@@ -11,25 +11,70 @@
         <img src="./image/fond.jpeg" alt="bando" >
     </div>
     <main>
-        <table id="productTable">
+        <h2>Liste des produits</h2>
+        <div class="barre-recherche">
+            <input type="text" class="search-input" placeholder="Recherche...">
+            <input type="submit" value="recherche">
+        </div>
+
+        <table border="0">
             <thead>
-                <tr>
-                    <th>Action</th>
-                    <th>Prix (&euro;)</th>
-                    <th>Caractéristiques</th>
-                    <th>Titre du produit</th>
+                <tr class="ligne">
+                    <th id="prod">Titre du produits</th>
+                    <th id="caractere">Caractéristiques</th>
+                    <th id="prix">Prix</th>
+                    <th id="action">Action 4</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td><button class="delete">supprimer</button></td>
-                    <td>89</td>
-                    <td>caractéristiques</td>
+                <tr class="ligne">
                     <td>Produit 1</td>
+                    <td>Caractéristiques</td>
+                    <td>89€</td>
+                    <td><label for="Action"></label>
+                    <input type="submit" value="supprimer">
+                    </td>
                 </tr>
-                <!-- Add more rows here -->
+                <tr class="ligne">
+                    <td>Produit 2</td>
+                    <td>Caractéristiques</td>
+                    <td>89€</td>
+                    <td>
+                        <label for="Action"></label>
+                    <input type="submit" value="supprimer">
+                    </td>
+                </tr>
+                <tr class="ligne">
+                    <td>Produit 3</td>
+                    <td>Caractéristiques</td>
+                    <td>89€</td>
+                    <td>
+                        <label for="Action"></label>
+                    <input type="submit" value="supprimer">
+                    </td>
+                </tr>
+                <tr class="ligne">
+                    <td>Produit 4</td>
+                    <td>Caractéristiques</td>
+                    <td>89€</td>
+                    <td>
+                        <label for="Action"></label>
+                    <input type="submit" value="supprimer">
+                    </td>
+                </tr>
+                <tr class="ligne">
+                    <td>Produit 5</td>
+                    <td>Caractéristiques</td>
+                    <td>89€</td>
+                    <td>
+                        <label for="Action"></label>
+                    <input type="submit" value="supprimer">
+                    </td>
+                </tr>
+
             </tbody>
         </table>
+    
     </main>
     <footer>
         <div class="footer-conteneur">
